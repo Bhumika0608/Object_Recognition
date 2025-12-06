@@ -27,25 +27,25 @@ System Architecture
 
 📊 Results:
 
-Overall Accuracy: 90% (27 correct out of 30 samples)
+✔ Overall Accuracy: 90% (27 correct out of 30 samples)
 
-Number of Object Classes: 5 tested (Bottle, Can, Compass, Level, Screwdriver)
+✔ Number of Object Classes: 5 tested (Bottle, Can, Compass, Level, Screwdriver)
 
-Per-Class Performance:
+✔ Per-Class Performance:
 
-Object	Accuracy
+     Object	Accuracy
 
-Bottle	83.3%
+    Bottle	83.3%
 
-Can	83.3%
+    Can	83.3%
 
-Compass	100%
+    Compass	100%
 
-Level	83.3%
+    Level	83.3%
 
-Screwdriver	100%
+    Screwdriver	100%
 
-Sample Results: 
+✔  Sample Results: 
 
 
 

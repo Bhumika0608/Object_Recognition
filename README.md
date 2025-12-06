@@ -25,7 +25,7 @@ System Architecture
 | **7️⃣ Performance Evaluation**      | Confusion matrix & per-class accuracy                                              |
 | **8️⃣ Extension**                   | ResNet18 embedding-based few-shot classification                    |
 
-📊 Results:
+Results:
 
 ✔ Overall Accuracy: 90% (27 correct out of 30 samples)
 
@@ -33,7 +33,7 @@ System Architecture
 
 ✔ Per-Class Performance:
 
-     Object	Accuracy
+    Object	Accuracy
 
     Bottle	83.3%
 
@@ -49,5 +49,64 @@ System Architecture
 
 
 
+✔  Requirements
+Build Tools
 
+    macOS Monterey / Ventura / Sonoma
+
+    CMake ≥ 3.10
+
+    Clang / Apple LLVM Toolchain (comes with macOS)
+
+    C++17 compiler support
+
+Xcode Command Line Tools
+
+    xcode-select --install
+
+Required Dependencies
+1️⃣ OpenCV 4.x
+
+Install via Homebrew:
+
+    brew install opencv
+
+
+This automatically places OpenCV in:
+
+    /opt/homebrew/opt/opencv/
+
+
+▶️ Quick Start
+Automated Build (Recommended)
+
+From the project root:
+
+    ./build_project.sh
+
+
+This will:
+
+✔ Configure with CMake
+✔ Build the project
+✔ Output executable to bin/ directory
+
+Manual Build Using CMake
+
+    mkdir build
+
+    cd build
+
+    cmake ..
+
+    make -j4
+
+    ./ObjectRecognition   # Run the application
+
+🎥 Camera Permissions (Important)
+
+macOS may block camera access by default.
+
+Enable:
+System Settings → Privacy & Security → Camera → Allow for Terminal / IDE
 

@@ -45,10 +45,6 @@ Results:
 
     Screwdriver	100%
 
-✔  Sample Results: 
-
-
-
 ✔  Requirements
 Build Tools
 

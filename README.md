@@ -3,9 +3,13 @@ This project implements a real-time 2D object recognition pipeline built from sc
 Key Objectives
 
 ✔ Real-time segmentation and region extraction
+
 ✔ Rotation/scale/translation-invariant shape feature extraction
+
 ✔ Automated feature database creation from live camera input
+
 ✔ Multi-classifier recognition with robustness improvements
+
 ✔ Few-shot embedding-based classification.
 
 System Architecture
@@ -24,14 +28,21 @@ System Architecture
 📊 Results:
 
 Overall Accuracy: 90% (27 correct out of 30 samples)
+
 Number of Object Classes: 5 tested (Bottle, Can, Compass, Level, Screwdriver)
 
 Per-Class Performance:
+
 Object	Accuracy
+
 Bottle	83.3%
+
 Can	83.3%
+
 Compass	100%
+
 Level	83.3%
+
 Screwdriver	100%
 
 Sample Results: 

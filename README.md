@@ -45,6 +45,12 @@ Results:
 
     Screwdriver	100%
 
+✔ Sample Results:
+
+![Compass Result](https://github.com/Bhumika0608/Object_Recognition/blob/main/compass_result.jpg)
+
+![Level Result](https://github.com/Bhumika0608/Object_Recognition/blob/main/level_result.jpg)
+
 ✔  Requirements
 Build Tools
 
